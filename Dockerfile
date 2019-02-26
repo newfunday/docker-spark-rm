@@ -1,21 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @newfunday Sign out
-2,133
-20,730 18,153 apache/spark
- Code  Pull requests 462  Projects 0  Insights
-spark/dev/create-release/spark-rm/Dockerfile
-@cloud-fan cloud-fan [SPARK-24530][FOLLOWUP] run Sphinx with python 3 in docker
-d6be46e  on 2 Oct 2018
-@cloud-fan @vanzin
-88 lines (79 sloc)  3.59 KB
-    
 #
 # Licensed to the Apache Software Foundation (ASF) under one or more
 # contributor license agreements.  See the NOTICE file distributed with
@@ -103,16 +85,3 @@ RUN useradd -m -s /bin/bash -p spark-rm -u $UID spark-rm
 USER spark-rm:spark-rm
 
 ENTRYPOINT [ "/opt/spark-rm/do-release.sh" ]
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
